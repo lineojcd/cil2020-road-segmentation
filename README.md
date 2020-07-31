@@ -62,12 +62,32 @@ Restore from saved checkpoints
 ```shell
 python train.py -d 0 -c log/snapshot/epoch-last.pth
 ```
+### Evalaute
 
+```shell
+python eval.py -d 0 -p ./val
+```
+### Predict
+Specify which CUDA device:
+
+```shell
+python pred.py -d 0 -p ./pred
+```
+or specify the checkpoints
+```shell
+python pred.py -d 0 -c log/snapshot/epoch-last.pth
+```
+### Create submission.csv
+
+```shell
+cd ../CIL_Road_Seg/data/
+python mask_to_submission.py --name submission -p pred/
+```
  
 ### A sample workflow:
 
 ```shell
-cd model/cil-resnet50
+cd /CIL_Road_Seg/myModels/resnet50
 # train with CUDA device 0
 python train50.py -d 0
 # eval using the default last epoh
