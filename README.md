@@ -1,6 +1,6 @@
 # cil2020-road-segmentation
 
-Team Member: Xiao'ao Song, Weiyi Wang, Pavel Pozdnyakov, Dominik Alberto
+Team Member: Xiao'ao Song, Pavel Pozdnyakov, Dominik Alberto
 
 This repository contains the tools and models for the the course project of 
 [Computational Intelligence Lab](http://da.inf.ethz.ch/teaching/2020/CIL/) (Spring 2020): Road Segmentaion.
