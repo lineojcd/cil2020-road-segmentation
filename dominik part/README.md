@@ -1,8 +1,6 @@
 # cil2020-road-segmentation
 
-Team Member: Xiao'ao Song, Weiyi Wang, Pavel Pozdnyakov, Dominik Alberto
-
-Group Name: Nuria
+Team Member: Xiao'ao Song, Pavel Pozdnyakov, Dominik Alberto
 
 This repository contains the tools and models for the the course project of 
 [Computational Intelligence Lab](http://da.inf.ethz.ch/teaching/2020/CIL/) (Spring 2020): Road Segmentaion.
@@ -56,7 +54,3 @@ If you want to modify the default parameters, check the "main.py" files to see w
 # See results
 
 All outputs will be shown in the ROOT_DIR by default.
-
-# Model Compare
-
-To run other models such as various kind of ResNet (18, 34, 50, 101, 152 layers), U-Net and etc., go to folder **model_compare** and follow the instructions of the **readme.md** file inside of that folder.
